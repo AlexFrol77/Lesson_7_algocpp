@@ -68,6 +68,7 @@ int main(int argc, char** argv) {
 			}
 		}
 	}
+	in_txt.close();
 
 	std::cout << "В графе 7 вершин. Введите номер вершины, с которой начнётся обход: ";
 	std::cin >> vertex;
